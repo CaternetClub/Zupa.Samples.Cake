@@ -6,7 +6,7 @@ This example repo shows how to use [Cake](https://cakebuild.net) to build a simp
 
 1. Given a new solution, add the Cake bootloader by using this PowerShell command:
 
-```ps
+```powershell
 Invoke-WebRequest https://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1
 ```
 
@@ -32,7 +32,7 @@ RunTarget(target);
 
 The Cake script can be run, either locally or on a build server using the following PowerShell and any failures will be reported in the console:
 
-```ps
+```powershell
 .\build\build.ps1
 ```
 
