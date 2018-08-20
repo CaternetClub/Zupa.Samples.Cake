@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>Zupa.POC.Cake.TestWebsite</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Matt Ridgway</Authors>
+    <Company>Zupa</Company>
+    <Product>Blog</Product>
+    <Description>An example .NET solution being build using Cake</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
